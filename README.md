@@ -2,10 +2,10 @@
 # Network Programming - Assignment G01
 
 ## Anggota Kelompok
-| Nama           | NRP        | Kelas     |
-| ---            | ---        | ----------|
-|                |            |           |
-|                |            |           |
+|            Nama          | NRP        | Kelas     |
+| ---                      | ---        | ----------|
+| Rafael Mulia Wiratama S. | 5025241196 | C          |
+
 
 ## Link Youtube (Unlisted)
 Link ditaruh di bawah ini
@@ -14,5 +14,20 @@ Link ditaruh di bawah ini
 ```
 
 ## Penjelasan Program
+Program ini merupakan implementasi TCP File Server dengan multi-client support.
+
+Terdapat 4 jenis server:
+1. server-sync.py → hanya melayani 1 client
+2. server-thread.py → menggunakan threading
+3. server-select.py → menggunakan select
+4. server-poll.py → menggunakan poll
+
+Fitur:
+- Broadcast message
+- /list → melihat file di server
+- /upload → upload file ke server
+- /download → download file dari server
+
+Client dapat terhubung ke server dan mengirim command melalui terminal.
 
 ## Screenshot Hasil
